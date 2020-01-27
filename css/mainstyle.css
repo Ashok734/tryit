@@ -1,0 +1,168 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body {
+   background-color:#f6f6f6;
+   font-family: 'Montserrat', sans-serif;
+}
+
+/*---------START HEADER SECTION-----------*/
+/*---------START HEADER SECTION-----------*/
+/*---------START HEADER SECTION-----------*/
+
+#generation-wrapper {
+    padding-top: 15px;
+}
+#generation-wrapper .card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+     box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+}
+#generation-wrapper .card img {
+    width: 100%;
+    border-radius: 50%;
+}
+#generation-wrapper h4 {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 18px;
+}
+#generation-wrapper .btn-secondary{
+    background-color: unset;
+    border: unset;
+    box-shadow: unset;
+
+}
+#generation-wrapper .dropdown-menu {
+    margin-left: -110px;
+    text-align: center;
+}
+#generation-wrapper i {
+    color: #3282b8;
+}
+#generation-wrapper h5 {
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 30px;
+}
+#generation-wrapper .btn {
+    font-size: 13px;
+}
+#generation-wrapper .ccc {
+    padding-left: 5px;
+}
+#generation-wrapper .ddd {
+    padding-right: 5px;
+}
+#generation-wrapper .progress-bar{
+    height: 5px!important;
+    background-color:#ff971d;
+}
+#generation-wrapper .progress {
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    height: 5px;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+.start-date .btn {
+    background-color: #effcef;
+    border-color:#effcef;
+    color: #46b3e6;
+    box-shadow: unset;
+    cursor: unset;
+}
+.end-date .btn {
+    background-color: #ffe8d6;
+    border-color:#ffe8d6;
+    color: #f67280;
+    box-shadow: unset;
+    cursor: unset;
+}
+#generation-wrapper .title{
+    font-size: 13px;
+    margin-top: 20px;
+}
+#generation-wrapper h3 {
+    font-size: 13px;
+}
+#generation-wrapper p {
+    font-size: 13px;
+}
+
+#generation-wrapper .members img {
+    width: 25px;
+    height: 25px;
+    margin-right: -15px;
+    display: inline-block;
+    line-height: 20px;
+}
+#generation-wrapper .members span {
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    border: 5px solid #f6f6f6;
+    width: 40px;
+    height: 40px;
+}
+.details .btn {
+    background-color: #3282b8;
+    border: unset;
+    border-radius: 0;
+    box-shadow: unset;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#generation-wrapper h6 {
+    color: #3282b8;
+}
+#generation-wrapper .details i {
+    color:  #3282b8!important;
+}
+#generation-wrapper .c-right {
+    padding-right: 8px!important;
+}
+#generation-wrapper .c-left {
+    padding-left: 8px!important;
+}
+@media(max-width: 992px){
+   #generation-wrapper .c-right {
+    padding-right: 15px!important;
+  }
+
+  #generation-wrapper .c-left {
+    padding-right: 15px!important;
+  }
+  #generation-wrapper .card {
+    margin-top: 15px;
+  }
+  #generation-wrapper h4 {
+    margin-top: 30px;
+}
+#generation-wrapper .c-left {
+    padding-left: 15px!important;
+} 
+}
+@media(max-width: 768px){
+   #generation-wrapper h4 {
+    margin-top: 20px;
+} 
+}
+@media(max-width: 576px){
+   #generation-wrapper img {
+    width: 15%!important;
+} 
+#generation-wrapper .card {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#generation-wrapper .members img {
+    width: 25px!important;
+    height: 25px!important;
+}
+#generation-wrapper .ddd {
+    padding-left: 5px;
+}
+}
